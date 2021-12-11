@@ -19,6 +19,9 @@ const generateBullet = TestBullet => {
 
 module.exports = data => {
     const {title, description, installation, usage, screenshot, contributing, Test, confirmTest, username, email, license} = data;
+    let licenseStr = JSON.stringify(license);
+    licenseStr = licenseStr.substring(2, licenseStr.length - 2);
+    const licenseStrMod = licenseStr.split(' ').join('');
     return `
 # ${title}
 
@@ -34,7 +37,7 @@ ${generateBullet(Test)}
 * [Questions](#questions)
 
 ## Badges
-* ![License](https://img.shields.io/badge/License-MIT-blue)
+* ![License](https://img.shields.io/badge/License-${licenseStrMod}-blue)
 
 ## Installation
 * ${installation}

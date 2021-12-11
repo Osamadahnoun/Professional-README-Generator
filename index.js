@@ -30,11 +30,6 @@ const askQuestions = data => {
             name: 'usage',
             message: questions[3]
         },
-        // {
-        //     type: 'confirm',
-        //     name: 'confirmScreenShot',
-        //     message: questions[4]
-        // },
         {
             type: 'input',
             name: 'screenshot',
@@ -60,7 +55,7 @@ const askQuestions = data => {
             type: 'checkbox',
             name: 'license',
             message: questions[10],
-            choices: ['MIT License', 'Apache License 2.0', 'Boost Software License 1.0']
+            choices: ['MIT', 'Apache 2.0', 'Boost Software 1.0']
           },
         {
             type: 'input',
