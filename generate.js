@@ -55,6 +55,6 @@ ${generateTest(Test)}
 * Contact me at ${email}
 
 ## License
-* Covered under the ${license}
+* Covered under the ${license} license.
  `
 }
