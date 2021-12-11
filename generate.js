@@ -8,8 +8,6 @@ const generateTest = TestText => {
 * ${TestText}`
 }
 
-
-
 module.exports = data => {
     const {title, description, installation, usage, screenshot, contributing, Test, username, email, license} = data;
     return `
