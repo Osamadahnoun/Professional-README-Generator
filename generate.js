@@ -52,7 +52,7 @@ ${generateTest(Test)}
 
 ## Questions
 * [My Github Profile!](github.com/${username})
-* Contact me at ${email}
+* If you have any questions, feel free to reach me at ${email}
 
 ## License
 * Covered under the ${license} license.

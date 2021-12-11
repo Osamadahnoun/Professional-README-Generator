@@ -10,6 +10,7 @@ const questions = ['What is the title of your project?', 'Please Provide a Descr
 
 
 const askQuestions = data => {
+    console.log('Welcome to the PROFESSIONAL-README-GENERATOR! Please answer the prompts below to generate your professional README.md file!')
     return inquirer.prompt([
         {
             type: 'input',
@@ -154,7 +155,6 @@ const askQuestions = data => {
 
 askQuestions().then(answers => {
     // console.log(answers.title)
-    // console.log(answers.description)
     const pageMarkup = generate(answers);
     fs.writeFile('README.md', pageMarkup, err => {
           if (err) {
