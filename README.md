@@ -9,7 +9,8 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [Test](#test)
+
+* [Tests](#tests)
 * [Questions](#questions)
 
 ## Badges
@@ -25,11 +26,13 @@
 ## Contributing
 * 
 
+## Tests
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## Questions
 * [My Github Profile!](github.com/)
 * Contact me at 
 
 ## License
-* Covered under the 
+* Covered under the MIT License
  

@@ -8,8 +8,17 @@ const generateTest = TestText => {
 * ${TestText}`
 }
 
+const generateBullet = TestBullet => {
+    if (!TestBullet) {
+        return '';
+    }
+
+    return `
+* [Tests](#tests)`
+}
+
 module.exports = data => {
-    const {title, description, installation, usage, screenshot, contributing, Test, username, email, license} = data;
+    const {title, description, installation, usage, screenshot, contributing, Test, confirmTest, username, email, license} = data;
     return `
 # ${title}
 
@@ -21,7 +30,7 @@ module.exports = data => {
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [Test](#test)
+${generateBullet(Test)}
 * [Questions](#questions)
 
 ## Badges
