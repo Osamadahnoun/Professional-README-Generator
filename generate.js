@@ -19,11 +19,15 @@ module.exports = data => {
 * ${description}
 
 ## Table of Contents
+* [Badges](#badges)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Test](#test)
 * [Questions](#questions)
+
+## Badges
+* ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ## Installation
 * ${installation}
@@ -39,9 +43,6 @@ ${generateTest(Test)}
 ## Questions
 * [My Github Profile!](github.com/${username})
 * Contact me at ${email}
-
-##Badges
-* 
 
 ## License
 * Covered under the ${license}
