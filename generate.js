@@ -1,3 +1,15 @@
+const generateTest = TestText => {
+    if (!TestText) {
+        return '';
+    }
+
+    return `
+## Tests
+* ${TestText}`
+}
+
+
+
 module.exports = data => {
     const {title, description, installation, usage, screenshot, contributing, Test, username, email, license} = data;
     return `
@@ -22,9 +34,7 @@ module.exports = data => {
 
 ## Contributing
 * ${contributing}
-
-## Test
-* ${Test}
+${generateTest(Test)}
 
 ## Questions
 * [My Github Profile!](github.com/${username})
