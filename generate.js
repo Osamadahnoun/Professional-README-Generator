@@ -51,7 +51,7 @@ ${generateBullet(Test)}
 ${generateTest(Test)}
 
 ## Questions
-* [My Github Profile!](github.com/${username})
+* [My Github Profile](https://www.github.com/${username})
 * If you have any questions, feel free to reach me at ${email}
 
 ## License
